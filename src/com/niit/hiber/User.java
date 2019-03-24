@@ -29,7 +29,3 @@ public class User {
 		this.email = email;
 	}
 }
-//User.java
-//UserDAO.java
-//Register.jsp
-//index.jsp

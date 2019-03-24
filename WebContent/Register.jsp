@@ -8,15 +8,15 @@
 <title>Registration Hibernate Demo</title>
 </head>
 <jsp:useBean id="userBean" class="com.niit.hiber.User" />
-<jsp:setProperty name="userBean" property="*"/>
+<jsp:setProperty name="userBean" property="*" />
 <!--  for all properties -->
 <%
-int i= UserDAO.register(userBean);
+int i=UserDAO.register(userBean);
 if(i>0)
-out.println("You are Successfully registered");
+	out.println("You are Successfully registered");
 %>
 <body>
-<!-- Controller -->
+	<!-- Controller -->
 </body>
 </html>
 <!-- User.java

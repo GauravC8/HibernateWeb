@@ -4,7 +4,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
-//Model
+
 public class UserDAO {
 	public static int register(User u)
 	{
@@ -21,7 +21,8 @@ public class UserDAO {
 		return cnt;
 	}
 }
+
 /*<!-- User.java
-UserDAO.java
+UserDAO.java MOdel
 Register.jsp
 index.jsp -->*/
