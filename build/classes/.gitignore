@@ -1,3 +1,9 @@
-/com/
+/Employee.hbm.xml
+/Job.hbm.xml
+/Person.hbm.xml
+/Person1.hbm.xml
+/Student.hbm.xml
+/StudentClass.hbm.xml
 /User.hbm.xml
+/com/
 /hibernate.cfg.xml

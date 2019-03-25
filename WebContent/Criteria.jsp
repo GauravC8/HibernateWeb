@@ -30,7 +30,7 @@ out.println("<th>User Id</th>");
 out.println("<th>User Name</th>");
 out.println("<th>Email</th>");
 out.println("</tr>");
-Iterator it = list.iterator();
+Iterator<User> it = list.iterator();
 while(it.hasNext())
 {
 	User u  =(User)it.next();
